@@ -1,5 +1,5 @@
-# Created by https://www.gitignore.io/api/django
-# Edit at https://www.gitignore.io/?templates=django
+# Created by https://www.gitignore.io/api/react,django
+# Edit at https://www.gitignore.io/?templates=react,django
 
 ### Django ###
 *.log
@@ -118,4 +118,19 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# End of https://www.gitignore.io/api/django
+### react ###
+.DS_*
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+# End of https://www.gitignore.io/api/react,django
